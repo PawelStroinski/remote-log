@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body, input, button, select {
+  font-family: 'Segoe UI', 'Helvetica Neue', 'Lucida Grande', Tahoma, sans-serif;
+  font-size: 10pt;
+}
+
+.header {
+  padding: 10px;
+  background-color: #eee;
+}
+
+select {
+  margin-left: 30px;
+}
+
+.loading {
+  float: right;
+  margin-right: 10px;
+  color: silver;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: 10px;
+  vertical-align: text-top;
+  text-align: left;
+}
+
+th {
+  text-transform: capitalize;
+}
+
+tr:nth-child(even), thead tr {
+  background-color: #eee;
+}
+
+.received-col {
+  display: none;
+}
+
+.message-col {
+  white-space: pre-wrap;
+}
+
+.info-row {
+  color: MidnightBlue;
+}
+
+.debug-row {
+  color: DarkGreen;
+}
+
+.error-row {
+  color: Maroon;
+}
